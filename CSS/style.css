@@ -1,0 +1,242 @@
+::placeholder{
+    color:black;
+    font-style: italic;
+    text-align:center;
+}
+    /* Home Page */
+
+
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/756798230150512660/846700299149115412/2341858.png ');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#Logo{
+    display: flex;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: rgb(201, 201, 201);
+    padding: 0;
+    border: 3px solid #000000;
+}
+
+h1 {
+    top: 0px;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    font-family: Roboto 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 129px;
+    text-align: center;
+    color: #ffffff;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+a {
+    text-align: center;
+}
+#registreties{
+    text-align: center;
+    display:block;
+    width:200px;
+    margin:0 auto;
+    height: 50px;
+    background: #FD7A27;
+    border: 3px solid #000000;
+    font-family: Roboto 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    border-radius: 15px;
+    cursor:pointer;
+}
+#registreties:hover {
+    background: #d15509;
+
+}
+
+#ienakt{
+    display:block;
+    width:200px;
+    margin:0 auto;
+    text-align: center;
+    height: 50px;
+    background: #FD7A27;
+    border: 3px solid #000000;
+    font-family: Roboto 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+#ienakt:hover {
+    background: #d15509;
+}
+
+#mekletreisu{
+    text-align: center;
+    display:block;
+    width:200px;
+    margin:0 auto;
+    height: 50px;
+    background: #FD7A27;
+    border: 3px solid #000000;
+    font-family: Roboto 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+#mekletreisu:hover {
+    background: #d15509;
+}
+
+#rezervacija{
+    text-align: center;
+    display:block;
+    width:200px;
+    margin:0 auto;
+    height: 50px;
+    background: #FD7A27;
+    border: 3px solid #000000;
+    font-family: Roboto 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    border-radius: 15px;
+    cursor:pointer;
+}
+#rezervacija:hover{
+    background: #d15509;
+}
+    /* Ienākt */
+
+#epasts{
+    display: flex;
+    margin:auto;
+    font-size: 15px;
+    text-align: center;
+    width: 225px;
+    height: 32px;
+    background: #C2B9B9   ;
+    border: 3px solid #000000;
+    font-family: Roboto 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 35px;
+    color: #5F5F5F;
+}
+#epasts:hover{
+    background: #353434;
+}
+#parole{
+    display: flex;
+    margin:auto;
+    font-size: 15px;
+    text-align: center;
+    width: 225px;
+    height: 32px;
+    background: #C2B9B9    ;
+    border: 3px solid #000000;
+    font-family: Roboto 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 35px;
+    color: #000000;
+}
+#parole:hover{
+    background: #353434;
+}
+#ienakt2{
+    text-align: center;
+    display: block;
+    margin:0 auto;
+    width: 200px;
+    height: 50px;
+    background: #FD7A27;
+    border: 3px solid #000000;
+    font-family: Roboto 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+    border-radius: 15px;
+    cursor:pointer;
+}
+#ienakt2:hover{
+    background: #d15509;
+}
+
+    /* Reģistrēties */
+
+
+#vards{
+    display: flex;
+    margin:auto;
+    font-size: 15px;
+    text-align: center;
+    width: 225px;
+    height: 32px;
+    background: #C2B9B9    ;
+    border: 3px solid #000000;
+    font-family: Roboto 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 35px;
+    color: #000000;
+    }
+#vards:hover{
+     background: #353434;
+}
+.No{
+    display: flex;
+    margin:auto;
+    font-size: 15px;
+    text-align: center;
+    width: 225px;
+    height: 32px;
+    background: #C2B9B9    ;
+    border: 3px solid #000000;
+    font-family: Roboto 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 35px;
+    color: #000000;
+}
+.Uz{
+    display: flex;
+    margin:auto;
+    font-size: 15px;
+    text-align: center;
+    width: 225px;
+    height: 32px;
+    background: #C2B9B9    ;
+    border: 3px solid #000000;
+    font-family: Roboto 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 35px;
+    color: #000000;
+}
