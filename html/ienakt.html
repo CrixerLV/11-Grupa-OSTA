@@ -11,10 +11,17 @@
     <h1><img id="Logo" src="https://static.thenounproject.com/png/866962-200.png" alt="Logo">
         Osta
     </h1>
-    <input type="epasts" id="epasts" placeholder="e-pasts">
-    <br>
-    <input type="parole" id="parole" placeholder="parole">
-    <br>
-    <button onclick="location.href='../html/Veiksmigi.html'" id="ienakt2">Ienākt</button>
+    <form method="post">
+        <p>
+            <input type="text" id="vards" value=""
+                placeholder="Pilnais vārds">
+        </p>
+        <p>
+            <input type="password" id="parole" value=""
+                placeholder="Parole">
+        </p>
+    </form>
+        <input type="submit" id="ienakt" value="Login" onclick="validate()">
 </body>
+    <script src="../JS/script.js"></script>
 </html>
