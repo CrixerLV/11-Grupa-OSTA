@@ -250,7 +250,7 @@ th, td {
     padding: 15px;
     text-align: center;
   }
-  #rezervet{
+#rezervet1{
     text-align: center;
     display: block;
     margin:0 auto;
@@ -267,6 +267,55 @@ th, td {
     border-radius: 15px;
     cursor:pointer;
 }
-#rezervet:hover{
+#rezervet2{
+    text-align: center;
+    display: block;
+    margin:0 auto;
+    width: 100px;
+    height: 25px;
+    background: #FD7A27;
+    border: 3px solid #000000;
+    font-family: Roboto 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 5px;
+    color: #000000;
+    border-radius: 15px;
+    cursor:pointer;
+}
+#rezervet3{
+    text-align: center;
+    display: block;
+    margin:0 auto;
+    width: 100px;
+    height: 25px;
+    background: #FD7A27;
+    border: 3px solid #000000;
+    font-family: Roboto 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 5px;
+    color: #000000;
+    border-radius: 15px;
+    cursor:pointer;
+}
+#rezervet1:hover{
     background: #d15509;
+}
+#rezervet2:hover{
+    background: #d15509;
+}
+#rezervet3:hover{
+    background: #d15509;
+}
+#pirmais {
+    visibility: hidden;
+}
+#otrais {
+    visibility: hidden;
+}
+#tresais {
+    visibility: hidden;
 }

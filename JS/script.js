@@ -14,3 +14,8 @@ function validate()
     else
         window.location.href='ienacis.html';
 }
+// Rezervētie
+
+document.getElementById('paradit').onclick = function() {
+    document.getElementById('first').style.visibility = "visible";
+}
