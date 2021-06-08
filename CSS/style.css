@@ -240,3 +240,33 @@ a {
     line-height: 35px;
     color: #000000;
 }
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+th, td {
+    padding: 15px;
+    text-align: center;
+  }
+  #rezervet{
+    text-align: center;
+    display: block;
+    margin:0 auto;
+    width: 100px;
+    height: 25px;
+    background: #FD7A27;
+    border: 3px solid #000000;
+    font-family: Roboto 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 5px;
+    color: #000000;
+    border-radius: 15px;
+    cursor:pointer;
+}
+#rezervet:hover{
+    background: #d15509;
+}

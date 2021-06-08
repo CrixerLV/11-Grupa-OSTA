@@ -12,5 +12,5 @@ function validate()
         window.location.href='../html/Admin.html';
     }
     else
-        window.location.href='Veiksmigi.html';
+        window.location.href='ienacis.html';
 }
